@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #d3d3d3;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+.search-section {
+    background-image: url('assets/img/background-imagem.jpg'); /* Substitua com a imagem do fundo de livros */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.search-section h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.search-section input[type="text"] {
+    width: 80%;
+    max-width: 500px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f8eaea;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.search-section button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background-color: #ddd;
+}
+
+.book-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #bfbfbf;
+}
+
+.book-card {
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book-card p {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.rating {
+    color: #ffcc00;
+    font-size: 16px;
+}
